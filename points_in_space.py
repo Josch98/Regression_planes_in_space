@@ -1,18 +1,18 @@
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-# --- Example lists of coordinates ---
+# --- Puntos (X, Y, Z) de ejemplo ---
 x = [1, 2, 3, 4, 5]
 y = [2, 3, 4, 5, 6]
 z = [3, 1, 4, 2, 5]
 
-# --- 3D scatter plot ---
+# --- Crear el espacio 3D ---
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
-ax.scatter(x, y, z, c='red', marker='o')  # You can change color/marker
+ax.scatter(x, y, z, c='red', marker='o')
 
-# --- Labels ---
+# --- Rotular ejes ---
 ax.set_xlabel('X axis')
 ax.set_ylabel('Y axis')
 ax.set_zlabel('Z axis')
