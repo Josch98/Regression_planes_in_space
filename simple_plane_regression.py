@@ -36,7 +36,7 @@ def plot_cost():
     plt.plot(x_v, y_v, marker='o', markersize=1) 
     plt.xlabel("x")
     plt.ylabel("y")
-    plt.title("Plot of [y, x] points")
+    plt.title("Costo en función de la iteración del descenso de gradiente")
     plt.grid(True)
     plt.show()
     
