@@ -77,7 +77,6 @@ def animation(x_points, y_points, z_points):
 # --- Función principal del programa ---
 
 def main():
-    # z(x, y) = Ax + By + C PLANE EQUATION
     A, B, C = np.random.rand(3)
     A = A*-3
     B = B*-1
